@@ -12,5 +12,19 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require ./plugins/respond.min
+//= require ./plugins/jquery-1.10.2.min
+//= require ./plugins/jquery-migrate-1.2.1.min
+//= require ./plugins/bootstrap/js/bootstrap.min
+//= require ./plugins/hover-dropdown
+//= require ./plugins/back-to-top
+//= require app
+//= require index
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function() {
+    App.init();    
+    App.initBxSlider();
+    Index.initRevolutionSlider();                    
+});

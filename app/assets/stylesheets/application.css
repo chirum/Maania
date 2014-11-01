@@ -9,5 +9,12 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require ./plugins/font-awesome/css/font-awesome.min
+ *= require ./plugins/bootstrap/css/bootstrap.min
+ *= require style-metronic
+ *= require style
+ *= require ./themes/blue
+ *= require style-responsive
+ *= require custom
  *= require_tree .
  */
