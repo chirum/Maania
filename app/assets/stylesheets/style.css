@@ -14,7 +14,7 @@ Import fonts
 ***/
 
 /* load open sans font from local */
-@import url(../fonts/font.css);
+@import url(/assets/fonts/font.css);
 
 /* General body settings */
 body { 

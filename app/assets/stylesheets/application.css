@@ -16,5 +16,4 @@
  *= require ./themes/blue
  *= require style-responsive
  *= require custom
- *= require_tree .
  */
