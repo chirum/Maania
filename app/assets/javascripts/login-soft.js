@@ -15,7 +15,7 @@ var Login = function () {
 		        "/assets/img/bg/7.jpg",
 		        "/assets/img/bg/8.jpg"
 		        ], {
-		          fade: 2000,
+		          fade: 1000,
 		          duration: 8000
 		    });
         }

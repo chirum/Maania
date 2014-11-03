@@ -693,7 +693,7 @@ label {
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
