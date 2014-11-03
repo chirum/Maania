@@ -15,5 +15,6 @@
  *= require style
  *= require ./themes/blue
  *= require style-responsive
+ *= require login-soft
  *= require custom
  */

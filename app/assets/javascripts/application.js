@@ -17,14 +17,15 @@
 //= require ./plugins/jquery-migrate-1.2.1.min
 //= require ./plugins/bootstrap/js/bootstrap.min
 //= require ./plugins/hover-dropdown
+//= require ./plugins/backstretch/jquery.backstretch.min
 //= require ./plugins/back-to-top
 //= require app
 //= require index
 //= require turbolinks
+//= require login-soft
 //= require_tree .
 
 $(document).ready(function() {
     App.init();    
     App.initBxSlider();
-    Index.initRevolutionSlider();                    
 });
