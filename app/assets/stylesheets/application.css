@@ -30,13 +30,13 @@
     position: relative;
     text-align: left;
     top: 180px;
-    font-weight: lighter;
+    font-weight: 600;
 }
 .number1 {
     color: #fff;
     display: inline-block;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 50px;
     margin-bottom: 30px;
     margin-top: 0;
