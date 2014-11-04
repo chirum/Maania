@@ -19,6 +19,7 @@
  *= require custom
  */
 
+
 .number {
     color: #fff;
     display: inline-block;
@@ -43,5 +44,4 @@
     text-align: right;
     top: 200px;
     font-weight: lighter;
-}
 }
