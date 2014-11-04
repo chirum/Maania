@@ -19,16 +19,6 @@
  *= require custom
  */
 
-.backstretch{
-	position: absolute !important;
-	top: 79px !important;
-}
-h1.head{
-	h1, .h1, h2, .h2, h3, .h3 {
-    margin-bottom: 550px !important;
-}
-
-}
 .number {
     color: #fff;
     display: inline-block;
