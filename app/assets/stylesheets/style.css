@@ -363,6 +363,10 @@ Top Bar
 	font-size: 12px;
 }
 
+.front-topbar li b {
+	color: #0DA3E2;
+	font-size: 12px;
+}
 .front-topbar li.sep span {
 	color: #eee;
 	font-size: 11px;
