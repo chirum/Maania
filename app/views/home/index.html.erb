@@ -47,32 +47,53 @@
             <!-- BEGIN TOP NAVIGATION MENU -->
 		</div>
     </div>
-		 <div class="page-container">
-        <div class="container" style="min-height: 600px">
-        	
-        	<div class="container min-hight">
-			<!-- BEGIN ABOUT INFO -->   
-			<div class="row margin-bottom-30">
-				<!-- BEGIN INFO BLOCK -->               
-				<div class="col-md-5 space-mobile " >
-					<h1 class="number">WE HELP COMPANIES</h1>
-					<h1 class="number">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDUCE THEIR</h1>
-					<h1 class="number">RECRUITMENT COST</h1>
-					<!-- BEGIN LISTS -->
-					
-					<!-- END LISTS -->
-				</div>
-				<div class="col-md-7 space-mobile " >
-					<h1 class="number1">Hire a Full time offshore recruiter for only $999 per month ($6/hr)	</h1>
-					<h1 class="number1">Set up your offshore office in India</h1>
-					<!-- BEGIN LISTS -->
-					
-					<!-- END LISTS -->
-				</div>
-				<!-- END INFO BLOCK -->   
-
-			</div>
-		</div>
+        <div class="fullwidthbanner-container slider-main">
+            <div class="fullwidthabnner" style= "height: 597px !important;">
+                <ul id="revolutionul" style="display:none;">
+                        <!-- THE NEW SLIDE -->
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="/assets/img/bg/1.jpg" alt="">
+                            
+                            <div class="caption lft slide_title_white slide_item_left"
+                                 data-x="30"
+                                 data-y="90"
+                                 data-speed="400"
+                                 data-start="1500"
+                                 data-easing="easeOutBack">
+                                 WE HELP COMPANIES<br><span class="slide_title_white_bold">REDUCE THEIR</span><br>RECRUITMENT COST
+                            </div>
+                        </li>            
+                        <!-- THE FIRST SLIDE -->
+                        
+                        <!-- THE THIRD SLIDE -->
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400">
+                            <img src="/assets/img/bg/2.jpg" alt="">
+                            <div class="caption lft slide_title_white slide_item_left"
+                                 data-x="30"
+                                 data-y="90"
+                                 data-speed="400"
+                                 data-start="1500"
+                                 data-easing="easeOutBack">
+                                 HIRE OFFSHORE RECRUITERS<br><span class="slide_title_white_bold">FOR ONLY</span><br>$999 PER MONTH / $6 PER HOUR
+                            </div>
+                        </li>               
+                        
+                        <!-- THE FORTH SLIDE -->
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="/assets/img/bg/3.jpg" alt="">                        
+                            <div class="caption lft slide_title_white slide_item_left"
+                                 data-x="30"
+                                 data-y="90"
+                                 data-speed="400"
+                                 data-start="1500"
+                                 data-easing="easeOutBack">
+                                 SET UP YOUR OFFSHORE OFFICE IN INDIA<br><span class="slide_title_white_bold">HIRE RECRUITERS FOR ONLY</span><br>$799 PER MONTH / $5 PER HOUR
+                            </div>                        
+                        </li>
+                </ul>
+            </div>
         </div>
 	
 
@@ -100,8 +121,10 @@
         </div>
     </div>
     <script>
-		$(document).ready(function() {     
-		  Login.init();
-		});
-	</script>
+        $(document).ready(function() {
+            App.init();    
+            App.initBxSlider();
+            Index.initRevolutionSlider();                    
+        });
+    </script>
 </body>

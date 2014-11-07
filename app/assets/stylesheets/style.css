@@ -363,7 +363,9 @@ Top Bar
 	font-size: 12px;
 }
 
-.front-topbar li b {
+.front-topbar li span,
+.front-topbar li span a 
+ {
 	color: #0DA3E2;
 	font-size: 12px;
 }
@@ -750,7 +752,7 @@ Slider
 	z-index: 1;
 	position: relative;
 	border-bottom: solid 1px #eee;
-	max-height:450px !important;
+	max-height:550px !important;
 	overflow:hidden;
 	margin-bottom: 10px;
 }

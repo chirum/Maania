@@ -13,9 +13,11 @@
  *= require ./plugins/bootstrap/css/bootstrap.min
  *= require style-metronic
  *= require style
+ *= require ./plugins/revolution_slider/css/rs-style
+ *= require ./plugins/revolution_slider/rs-plugin/css/settings
+ *= require ./plugins/bxslider/jquery.bxslider
  *= require ./themes/blue
  *= require style-responsive
- *= require login-soft
  *= require custom
  */
 

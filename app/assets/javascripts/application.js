@@ -17,15 +17,10 @@
 //= require ./plugins/jquery-migrate-1.2.1.min
 //= require ./plugins/bootstrap/js/bootstrap.min
 //= require ./plugins/hover-dropdown
-//= require ./plugins/backstretch/jquery.backstretch.min
 //= require ./plugins/back-to-top
+//= require ./plugins/revolution_slider/rs-plugin/js/jquery.themepunch.plugins.min
+//= require ./plugins/revolution_slider/rs-plugin/js/jquery.themepunch.revolution.min
+//= require ./plugins/bxslider/jquery.bxslider.min
 //= require app
 //= require index
 //= require turbolinks
-//= require login-soft
-//= require_tree .
-
-$(document).ready(function() {
-    App.init();    
-    App.initBxSlider();
-});
