@@ -39,7 +39,7 @@ Header and header elements.
 .header .navbar-nav li.active > a,
 .header .navbar-nav li.active:hover > a {
 	color: #0da3e2 !important;
-	border-top: solid 2px #0da3e2 !important;
+	border-top: solid 0px #333 !important;
 }
 
 .header .in.collapse li a:hover {
