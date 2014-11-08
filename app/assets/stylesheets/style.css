@@ -557,7 +557,6 @@ Header and header elements.
 }
 
 .header .nav li > a:hover,
-.header .nav li.active > a,
 .header .nav li.active:hover > a {
 	color: #0da3e2;
 	border-radius: 0;
@@ -565,6 +564,17 @@ Header and header elements.
 	padding-top: 26px;
 	box-shadow: none !important;
 	border-top: solid 2px #0da3e2;
+}
+.header .nav li.active:hover > a,
+.header .nav li.active > a {
+	color: #0da3e2;
+	border-radius: 0;
+	text-shadow: none;
+	padding-top: 26px;
+	box-shadow: none !important;
+	border-top: solid 2px #0da3e2;
+	font-size: 10px;
+	font-weight: 600;
 }
 .header.scrolling-fixed .nav li > a:hover,
 .header.scrolling-fixed .nav li.active > a,
