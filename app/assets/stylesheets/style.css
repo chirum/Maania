@@ -843,17 +843,6 @@ Slider
 	cursor:pointer;
 }
 
-.tp-leftarrow.default { 
-	background: #d2d7dc url(../img/sliders/revolution/arrow_left.png) no-repeat center !important;	
-	width:40px !important;	
-	height:50px !important;
-}
-
-.tp-rightarrow.default {	
-	background:  #d2d7dc url(../img/sliders/revolution/arrow_right.png) no-repeat center !important;
-	width:40px !important;	
-	height:50px !important;
-}
 
 /***
 Content and content elements.
