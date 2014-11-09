@@ -360,14 +360,14 @@ Top Bar
 .front-topbar a,
 .front-topbar li {
 	color: #999;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .front-topbar li span,
 .front-topbar li span a 
  {
 	color: #0DA3E2;
-	font-size: 12px;
+	font-size: 14px;
 }
 .front-topbar li.sep span {
 	color: #eee;
@@ -557,6 +557,7 @@ Header and header elements.
 }
 
 .header .nav li > a:hover,
+.header .nav li.active > a,
 .header .nav li.active:hover > a {
 	color: #0da3e2;
 	border-radius: 0;
@@ -565,17 +566,7 @@ Header and header elements.
 	box-shadow: none !important;
 	border-top: solid 2px #0da3e2;
 }
-.header .nav li.active:hover > a,
-.header .nav li.active > a {
-	color: #0da3e2;
-	border-radius: 0;
-	text-shadow: none;
-	padding-top: 26px;
-	box-shadow: none !important;
-	border-top: solid 2px #0da3e2;
-	font-size: 10px;
-	font-weight: 600;
-}
+
 .header.scrolling-fixed .nav li > a:hover,
 .header.scrolling-fixed .nav li.active > a,
 .header.scrolling-fixed .nav li.active:hover > a {
@@ -769,7 +760,7 @@ Slider
 .slide_title_white {
 	font-family: 'Arial';
 	font-weight: 300;
-	color:#000;
+	color:#fff;
 	text-align:center;
 	text-transform: uppercase;
 	font-size:20px;
@@ -1333,7 +1324,7 @@ Copyright
 
 .breadcrumbs h1 {
 	color: #555;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 35px;
 	margin-left: -5px;
 	margin-top: 10px;
