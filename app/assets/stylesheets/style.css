@@ -758,7 +758,7 @@ Slider
 	margin-bottom: 10px;
 }
 .slide_title_white {
-	font-weight: 600;
+	font-weight: 800;
 	color:#fff;
 	text-align:center;
 	text-transform: uppercase;
@@ -767,7 +767,7 @@ Slider
 }
 
 .slide_title_white_bold {
-	font-weight: 600;
+	font-weight: 800;
 }
 
 .slide_subtitle_white {

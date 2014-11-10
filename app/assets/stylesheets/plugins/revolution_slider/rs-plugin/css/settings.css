@@ -443,12 +443,6 @@ website:   	http://www.themepunch.com
 												left: 47% !important;
 												bottom: 200px !important;
 											}
-.tp-bullets.hidebullets					{
-												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-												-moz-opacity: 0;
-												-khtml-opacity: 0;
-												opacity: 0;
-											}
 
 
 .tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(../assets/boxed_bgtile.png); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
