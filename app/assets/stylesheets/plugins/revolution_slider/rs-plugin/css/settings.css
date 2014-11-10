@@ -411,7 +411,7 @@ website:   	http://www.themepunch.com
         -o-user-select: none;
 	}
 
-.tp-bannershadow.tp-shadow1 {	background:url(../assets/shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
+.tp-bannershadow.tp-shadow1 {	background:url(/assets/shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
 .tp-bannershadow.tp-shadow2 {	background:url(../assets/shadow2.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
 .tp-bannershadow.tp-shadow3 {	background:url(../assets/shadow3.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
 
@@ -440,6 +440,8 @@ website:   	http://www.themepunch.com
 												-khtml-opacity: 1;
 												opacity: 1;
 												-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
+												left: 47% !important;
+												bottom: 200px !important;
 											}
 .tp-bullets.hidebullets					{
 												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -454,7 +456,7 @@ website:   	http://www.themepunch.com
 .tp-bullets.simplebullets.navbar-old					{ 	 background:url(../assets/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 
-.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(../assets/bullet.png) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:-10px; margin-left:3px;}
+.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(/assets/bullet.png) no-Repeat top left;	width:20px;	height:15px;  margin-right:0px; float:left; margin-top:-10px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
 
 .tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(../assets/bullets.png) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:-12px;}
